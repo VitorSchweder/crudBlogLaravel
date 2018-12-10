@@ -1,0 +1,109 @@
+* {
+    font-family: 'Fira Sans', sans-serif;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+body {
+    background: #f8f8f8;
+}
+
+main#main-container {
+    margin: 0 0 0 250px;
+    background: #FFFFFF;
+    border-left: 1px solid #d6d6d6;
+    min-height: 568px;
+}
+
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+ul#menu-lateral {
+    position: absolute;
+    background: #f8fafc;
+    width: 250px;
+    list-style: none;
+    padding-left: 0;
+}
+
+ul#menu-lateral li {
+    border-bottom: 1px solid #e7e7e7;
+}
+
+ul#menu-lateral li a.ativo,
+ul#menu-lateral li a:hover {
+    background-color: #eeeeee;
+}
+
+ul#menu-lateral li a {
+    display: block;
+    padding: 10px 15px;
+    color: #000;
+}
+
+.navbar-laravel {
+    background-color: #f8f8f8;
+    border-bottom: 1px solid #d6d6d6;
+}
+
+.margem-inferior-10 {
+    margin-bottom: 10px !important;
+}
+
+.page-header {
+    padding-bottom: 10px;
+    margin: 10px 0 20px;
+    border-bottom: 1px solid #eee;
+}
+
+td.acoes a {
+    padding: 5px 8px;
+    font-size: 0.9em;
+    display: inline;
+}
+
+td.acoes form {
+    display: inline;
+}
+
+td.acoes button[type="submit"] {
+    padding: 5px 8px;
+    font-size: 0.9em;
+    line-height: initial;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+
+.btn-info {
+    color: #FFFFFF;
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+div#imagem-formulario {
+    max-width: 100px;
+}
+
+div#container-grid-categoria a {
+    color: #FFFFFF;
+}
+
+div.container-grid {
+    margin-bottom: 10px;
+}
+
+div.container-filtros {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

@@ -1,2 +1,2 @@
-# crudBlogLaravel
-Projeto desenvolvido para realizar um crud em Laravel 5.7, contendo posts, categorias, autenticação e filtros.
+- Para instalação deve-se utilizar base de dados Postgresql;
+- Rodar php artisan migrate para criação das tabelas
